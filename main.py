@@ -249,6 +249,6 @@ if __name__ == '__main__':
     MainWindow.show()
     open_info(ui)
     ui.pushButton.clicked.connect(partial(convert, ui))
-    ui.pushButton_2.clicked.connect(partial(download_click,ui))
-    ui.pushButton_3.clicked.connect(partial(open_path, ui))
+    ui.pushButton_2.clicked.connect(partial(download,ui))
+    ui.pushButton_3.clicked.connect(partial)
     sys.exit(app.exec_())
